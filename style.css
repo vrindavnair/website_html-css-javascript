@@ -122,34 +122,17 @@ body {
 .round {
     height: 400px;
     border-radius: 315px;
+ max-width: 250%; 
+
     
 }
-.position-relative {
-    position: relative;
-}
-
-.top-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2; 
-}
-
-.bottom-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1; 
-}
-
-
-
 
 .car {
     margin-top: 20px; 
+    margin-right: 50px;
      height: 400px; 
-    width: 100%;
- max-width: 100%; 
+   
+   max-width: 100%; 
 }
 
 .overlay-content {
